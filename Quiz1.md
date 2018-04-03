@@ -16,3 +16,6 @@ Let A and B be two events in the sample space of S.
 1. (A ∪ B)' = A' ∩ B'
 2. (A ∩ B)'= A' ∪ B'
 ### 1.2 Axioms, Interpretations, and Properties of Probability
+* For any event A, P(A) ≥ 0
+* P(S) = 1
+* If A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>... is an infinite collection of disjoint events, then: P(A<sub>1</sub> ∪ A<sub>2</sub> ∪ A<sub>3</sub> ...) = sum from i = 1 to infinity of P(A<sub>i</sub>)
