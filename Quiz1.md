@@ -18,4 +18,12 @@ Let A and B be two events in the sample space of S.
 ### 1.2 Axioms, Interpretations, and Properties of Probability
 * For any event A, P(A) ≥ 0
 * P(S) = 1
-* If A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>... is an infinite collection of disjoint events, then: P(A<sub>1</sub> ∪ A<sub>2</sub> ∪ A<sub>3</sub> ...) = sum from i = 1 to infinity of P(A<sub>i</sub>)
+* If A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>... is an infinite collection of disjoint events, then: P(A<sub>1</sub> ∪ A<sub>2</sub> ∪ A<sub>3</sub> ...) = [sum from i=1 to infinity of P(A<sub>i</sub>)]
+* P(∅) = 0, where ∅is the null event
+#### 1.2.1 Interpreting Probability
+* Let n(A) denote the number of replications on which A occurs. The ration n(A)/n is called the *relative frequency* of occurence of the event A in the sample of n replications
+* As n gets arbitrarily large, n(A)/n approaches a limiting value we refer to as the *long-run relative frequency* of the event A
+#### 1.2.2 More Probability Properties
+* Complement rule: for any event A, P(A) = 1 - P(A')
+* For any event A, P(A) ≤ 1
+* For any events A and B, P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
